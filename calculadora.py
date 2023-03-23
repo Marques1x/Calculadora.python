@@ -106,7 +106,29 @@ def gigabyteparaterabyte(valorASerConvertido):
     gigabyteCalculado = valorASerConvertido * 1024
     return gigabyteCalculado
 
+# print('Insira o valor a ser convertido')
+# entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
+# valorConvertido = gigabyteparaterabyte(entradaDoTecladoValorASerConvertido)
+# print(valorConvertido)
+
+
+
+
+def converterStringParaFloat(value):
+    print('Valor convertido de str para float')
+    return float(value)
+
+def terabyteparapetabyte(valorASerConvertido):
+    print('Valor convertido de terabyte para petabyte')
+    terabytesCalculado = valorASerConvertido / 1024
+    return terabytesCalculado
+
+def petabyteparaterabyte(valorASerConvertido):
+    print('Valor convertido de petabyte para terabyte')
+    petabyteCalculado = valorASerConvertido * 1024
+    return petabyteCalculado
+
 print('Insira o valor a ser convertido')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = gigabyteparaterabyte(entradaDoTecladoValorASerConvertido)
+valorConvertido = petabyteparaterabyte (entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
